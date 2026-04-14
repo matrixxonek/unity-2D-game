@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // MUSISZ dodać tę linię na górze!
+using UnityEngine.InputSystem; 
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -52,17 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
 bool IsPlayerGrounded()
 {
-    // Pobieramy rozmiar kolidera gracza
     CapsuleCollider2D collider = GetComponent<CapsuleCollider2D>(); 
-    // Jeśli używasz BoxCollider2D, zmień powyższe na BoxCollider2D
-
-    // Parametry BoxCast:
-    // 1. Pozycja startowa (środek kolidera)
-    // 2. Rozmiar (trochę węższy niż gracz, żeby nie łapał ścian)
-    // 3. Kąt (0)
-    // 4. Kierunek (w dół)
-    // 5. Dystans (0.1f - jak daleko pod nogi zaglądamy)
-    // 6. Warstwa (ziemia)
     
     RaycastHit2D hit = Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, 0.1f, groundLayer);
     
