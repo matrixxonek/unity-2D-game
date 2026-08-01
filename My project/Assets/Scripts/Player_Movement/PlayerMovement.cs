@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
         moveInput = right - left;
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
-        Debug.Log(isGrounded);
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded)
         {
@@ -48,14 +47,4 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput > 0) transform.localScale = new Vector3(1, 1, 1);
         else if (moveInput < 0) transform.localScale = new Vector3(-1, 1, 1);
     }
-
-
-bool IsPlayerGrounded()
-{
-    CapsuleCollider2D collider = GetComponent<CapsuleCollider2D>(); 
-    
-    RaycastHit2D hit = Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, 0.1f, groundLayer);
-    
-    return hit.collider != null;
-}
 }
