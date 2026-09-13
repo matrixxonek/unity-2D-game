@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff00b87a7e0340e095717dcc92744ff, type: 3}
+  m_Name: SpriteLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteLibrary
+  player: {fileID: 21300000, guid: b403193f63a534c6480b684e02b22721, type: 3}
+  playerJump: {fileID: 21300000, guid: b403193f63a534c6480b684e02b22721, type: 3}
+  probe: {fileID: 21300000, guid: 17fd621ae23bb4596b91e58f153cabc5, type: 3}
+  muzzle: {fileID: 21300000, guid: 4c82ea432b4784b5498173595cedf684, type: 3}
+  tileFill: {fileID: 21300000, guid: 9bcc06accc93646fb8fd6a1983431806, type: 3}
+  tileTop: {fileID: 21300000, guid: 01c57a022240d413bbac30800f873c88, type: 3}
+  spikes: {fileID: 21300000, guid: c9519c732a03441649affa7dd310fea0, type: 3}
+  crumble: {fileID: 21300000, guid: 9a1336781838949e2a814c9a16b79a2d, type: 3}
+  gate: {fileID: 21300000, guid: 8ddce9ab30f4241768bcf24694d0f13f, type: 3}
+  bench: {fileID: 21300000, guid: aa537ece2f9f74e3dbb5d982366889dc, type: 3}
+  sampleNode: {fileID: 21300000, guid: 5cb228ebcad38414a90db51d639e94cb, type: 3}
+  chargeCrystal: {fileID: 21300000, guid: 32fbbfd7afe3049d6968698ba6b651bb, type: 3}
+  walker: {fileID: 21300000, guid: 95fcadd00cbd844e3acf190e55d8ad2c, type: 3}
+  flyer: {fileID: 21300000, guid: 0422338c3561e46e48a1ea0b8c1efdd3, type: 3}
+  heavy: {fileID: 21300000, guid: 7c39c4bf7643845fb8dc676e5b910d8a, type: 3}
+  boss: {fileID: 21300000, guid: f7017b786d297475dbde1fb06fafa09f, type: 3}
+  shockwave: {fileID: 21300000, guid: c57e4082625de4ae595c2e83cfa21a0f, type: 3}
+  ammoPistol: {fileID: 21300000, guid: abf5c63ad2bd4402189ff22a61c11ea1, type: 3}
+  ammoRevolver: {fileID: 21300000, guid: 22f35652f18d84759add703f7b29b979, type: 3}
+  pickupPistol: {fileID: 21300000, guid: 9e7f7775cd0364593abd224c5b528ff4, type: 3}
+  pickupRevolver: {fileID: 21300000, guid: a5c2e0a83061443838c200d885ee05df, type: 3}
+  pickupDoubleJump: {fileID: 21300000, guid: 1436f17c60cc34e14b4decafa688c2cc, type: 3}
+  arrow: {fileID: 21300000, guid: 47d542d7d3f05421bb64763bcc44060f, type: 3}
+  bgFar: {fileID: 21300000, guid: 1f30c90c662f24461b40553414cc17e6, type: 3}
+  bgMid: {fileID: 21300000, guid: af1cd971d1329429ab25d09de9d44269, type: 3}
+  bgNear: {fileID: 21300000, guid: 64ad874a0bb594032b2883e99d2ec617, type: 3}
